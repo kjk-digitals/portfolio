@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "CosmicVibrant";
+    src: url("./fonts/CosmicVibrant-WywzY.otf") format('truetype');
+}
+
+@font-face {
+    font-family: "Moonstrike";
+    src: url("./fonts/Moonstrike-nRqzP.otf") format("truetype");
+}
+html {
+    text-align: center;
+}
+body {
+    font-family: "CosmicVibrant", sans-serif;
+    color: azure;
+    background-color: black;
+    background-image: url("./img/pexels-francesco-ungaro-998641.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-size: 120%;
+   
+
+}
+header {
+    height: 100px;
+    z-index: 9999999;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: solid 1px white;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 0;
+    
+
+}
+#logo {
+font-size: 3em;
+font-weight: bold;
+}
+a {
+    color: rgb(215, 250, 249);
+}
+.navI {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.wrap {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+
+#title1 {
+    font-size: 7vw;
+    margin-right: 50px;
+}
+.nav {
+    display: inline-flex;
+
+}
+img {
+    width: 40vw;
+    border-radius: 10px;
+    height: 50vh;
+}
+.journey {
+    text-align: left;
+
+}
+h3 {
+    font-size: 2vw;
+
+}
+h2 {
+    font-size: 4vw;
+}
+p {
+    font-size: 1.5vw;
+    width: 30vw;
+}
+li {
+    list-style-type: none;
+}
+.hero {
+    object-fit: cover;
+}
